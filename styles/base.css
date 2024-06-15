@@ -139,3 +139,7 @@ div{
 a:active{
     color: rgb(68, 68, 156);
 }
+
+.card img {
+    height: 150px;
+}
