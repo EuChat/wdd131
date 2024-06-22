@@ -1,0 +1,27 @@
+@media(min-width: 700px){
+    main{
+        grid-template-columns: repeat(a);
+    }
+
+    img{
+        width: 100%;
+    }
+    main h2{
+        grid-column: 1/4;
+    }
+    body{
+        position: relative;
+        left: 20%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(109, 103, 103);
+        border: 1px solid black;
+        list-style: none;
+        flex-direction: row;
+    }
+    #menu{
+        display: none;
+    }
+}
