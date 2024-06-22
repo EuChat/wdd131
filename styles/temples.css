@@ -9,9 +9,9 @@ a{
     text-decoration: none;
     color: white;
 }
-nav a:hover{
-    color: var(--accent-color2);
+nav li:hover{
     transition: 1s;
+    border: 1px double white;
 }
 
 *{
