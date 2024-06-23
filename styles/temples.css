@@ -93,7 +93,3 @@ div{
     justify-items: right;
 }
 
-nav :hover{
-    transition: 1s;
-    border: 1px double white;
-}
