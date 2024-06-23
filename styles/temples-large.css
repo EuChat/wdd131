@@ -1,6 +1,6 @@
 @media(min-width: 700px){
     main{
-        grid-template-columns: repeat(a);
+        grid-template-columns: auto auto auto;
     }
 
     img{
