@@ -12,6 +12,7 @@ a{
 nav li:hover{
     transition: 1s;
     border: 1px double white;
+    background-color: darkgrey;
 }
 
 *{
