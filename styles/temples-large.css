@@ -1,6 +1,4 @@
 @media(min-width: 700px){
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-
     main{
         grid-template-columns: auto auto auto;
     }
