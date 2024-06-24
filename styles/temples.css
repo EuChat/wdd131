@@ -21,9 +21,11 @@ nav a:hover {
 }
 
 body{
-    font-family: "Roboto", sans-serif;
-    /* font-weight: 300;
-    font-style: normal; */
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
     border: 2px double black;
     max-width: 800px;
 }
