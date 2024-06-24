@@ -91,6 +91,8 @@ ul.show{
 div{
     display: flex;
     justify-content: right;
-    background-color: var(--accent-color2);
 }
 
+#menuContainer{
+    background-color: var(--accent-color2);
+}
