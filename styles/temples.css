@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     color: white;
 }
-nav li:hover{
+nav a:hover{
     border: 1px double white;
     background-color: darkgrey;
 }
