@@ -90,6 +90,7 @@ ul.show{
 
 div{
     display: flex;
-    justify-items: right;
+    justify-content: right;
+    background-color: var(--accent-color2);
 }
 
