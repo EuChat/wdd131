@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <meta name="description" content="WDD 131 - Place - Garikai Chatayika - Home Page">
+    <meta name="author" content="Garikai Chatayika">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="./styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Zimbabwe</h1>
+    </header>
+    <div id="div1"></div>
+
+    <main>
+        <img src="./images/GreatZimbabwe.WebP" alt="An image" id="hero">
+        <div id="div2"></div>
+        <section class="Data">
+            <h2>Data</h2>
+            <ul>
+                <li class="right">Area:</li>        <li class="left">390,757km²</li>
+                <li class="right">Population:</li>  <li class="left">15 million</li>
+                <li class="right">Capital:</li>     <li class="left">Harare</li>
+                <li class="right">Languages:</li>   <li class="left">English, Shona, Ndebele and other minority languages</li>
+                <li class="right">Currency:</li>    <li class="left">Zimbabwe Gold</li>
+                <li class="right">Time Zone:</li>   <li class="left">Central African Time (CAT), UTC +2</li>
+                <li class="right">Calling Code:</li><li class="left">+263</li>
+                <li class="right">Internet TLD:</li><li class="left">zw</li>
+            </ul>
+        </section>
+        <section class="Weather">
+            <h2 class="wicon">Weather </h2>
+            <img src="./images/8726446_wind_sun_icon.svg" alt="Weather icon" id="windcon">
+            <ul>
+                <li class="right">Temperature:</li><li class="left" id="Temperature">°C</li>
+                <li class="right">Conditions:</li> <li class="left" id="Conditions"></li>
+                <li class="right">Wind:</li>       <li class="left" id="Wind">km/h</li>
+                <li class="right">Wind Chill:</li> <li class="left" id="WindChill">°C</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <aside class="gridspan">
+            ©<p id="year"></p> ⚡Garikai Chatayika⚡Zimbabwe
+        </aside>
+        <aside  class="gridspan">
+            <p>Last Modified:</p>
+            <p id="lastModified"></p>
+        </aside>
+    </footer>
+</body>
+</html>
