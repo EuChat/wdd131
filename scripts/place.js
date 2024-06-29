@@ -4,7 +4,7 @@ year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
 let text = document.lastModified;
 document.getElementById("lastModified").innerHTML = text;
 
-const temp = 2;
+const temp = 10;
 const conditions = 'Partly Cloudy';
 const wind = 7;
 
