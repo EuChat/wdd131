@@ -1,0 +1,106 @@
+:root{
+    --primary-color: rgb(9, 108, 236);
+    --secondary-color: wheat;
+    --accent-color1:grey ;
+    --accent-color2: rgb(219, 150, 23);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+nav a:focus{
+    color: var(--accent-color2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px double black;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+}
+
+#menu {
+      display: block;
+      font-size: 2rem;
+      font-weight:700;
+      text-decoration: none;
+      padding: .5rem .75rem;
+      background-color: var(--accent-color1);
+      text-align: right;
+}
+
+header{
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+    flex-direction: column;
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    max-width: 800px;
+    background-color: var(--secondary-color);
+    gap: 20px;
+}
+
+main h2{
+    grid-column: 1/2;
+}
+
+ul{
+    display: none;
+    list-style: none;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: column;
+    padding: 0;
+    background-color: black;
+}
+
+ul.show{
+    display: flex;
+}
+
+div{
+    display: flex;
+    justify-content: right;
+}
+
+#menuContainer{
+    background-color: var(--accent-color2);
+}
+
+#Pics section{
+    border: 1px solid rgb(243, 230, 206);
+    padding: 10px;
+}
