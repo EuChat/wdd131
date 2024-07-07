@@ -121,28 +121,36 @@ const temples = [
     },
     // Add more temple objects here...
     {
-        templeName: "Mexico City Mexico",
-        location: "Mexico City, Mexico",
-        dedicated: "1983, December, 2",
-        area: 116642,
+        templeName: "Barranquilla Colombia Temple",
+        location: "Puertorico, Colombia",
+        dedicated: "2018, December, 25",
+        area: 25349,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+        "images/2-Barranquilla-Columblia-Temple-2135201.jpg"
       },
       {
-        templeName: "Mexico City Mexico",
-        location: "Mexico City, Mexico",
-        dedicated: "1983, December, 2",
-        area: 116642,
+        templeName: "Arichorage Temple",
+        location: "Aricorage, Alaska",
+        dedicated: "2004, January, 9",
+        area: 11937,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+        "images/anchorage-temple-lds-253274-wallpaper.jpg"
       },
       {
-        templeName: "Mexico City Mexico",
-        location: "Mexico City, Mexico",
-        dedicated: "1983, December, 2",
-        area: 116642,
+        templeName: "Adelaide Temple",
+        location: "Adelaide, Australia",
+        dedicated: "2000, June, 15",
+        area: 10700,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+        "images/adelaide-australia-temple-lds-675332-wallpaper.jpg"
+      },
+      {
+        templeName: "Acera Temple",
+        location: "Acera, Ghana",
+        dedicated: "2004, January, 11",
+        area: 17500,
+        imageUrl:
+        "images/accra-ghana-temple-detail-249022-2400x1200.jpg"
       }
   ];
 
