@@ -1,0 +1,131 @@
+:root{
+    --primary-color: rgb(9, 108, 236);
+    --secondary-color: wheat;
+    --accent-color1:grey ;
+    --accent-color2: rgb(219, 150, 23);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px double black;
+    max-width: 700px;
+    margin: auto auto;
+}
+
+header{
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--secondary-color);
+    gap: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+#hero{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: left;
+    max-width: 700px;
+    gap: 20px;
+}
+
+.formDiv{
+    display: grid;
+    grid-template-columns: auto;
+}
+span{
+    display: flex;
+}
+
+#formrad{
+    display: flex;
+}
+
+#rads{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.radios{
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea{
+    height: 44px;
+    font-size: large;
+}
+ input[type="checkbox"]{
+    height: 2rem;
+    width: auto;
+    padding: 4px;
+}
+
+input{
+    border-radius: 20px;
+}
+
+input[type="radio"]{
+    height: 100%;
+    width: auto;
+    border: 1px dotted black;
+}
+button{
+    width: 40%;
+    justify-self: center;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: 400;
+    margin-top: -.5rem;
+}
+
+div{
+    display: flex;
+    margin: 0.3rem;
+}
+
+
+/* ----------------------Large------------------------ */
+
+@media(min-width: 600px) {
+    body{
+        margin: 0 auto;
+    }
+        
+    input, select, textarea{
+        max-width: 80%;
+    }
+    main{
+        padding-left: 10px;
+    }
+}

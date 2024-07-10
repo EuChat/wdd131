@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="WDD 131 - Form - Garikai Chatayika">
+    <meta name="author" content="Garikai Chatayika">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="./styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get" id="hero">
+            <section>
+                <Label for="ProductName">Product name</Label>
+                <select name="ProductName" id="ProductName" required>
+                    <option value="None" disabled selected>Select a product...</option>
+                    <option value="Tempo1" >Product1</option>
+                    <option value="Tempo2" >Product2</option>
+                    <option value="Tempo3" >Product3</option>
+                </select>
+            </section>
+            <section>
+                <Label for="radio">Overall rating</Label>
+                <div id="rads">
+                    <span class="radios">
+                        <Label for="rad1">⭐</Label>             <input type="radio" name="radio" id="rad1" required>
+                    </span>
+                    <span class="radios">
+                        <Label for="rad2">⭐⭐</Label>         <input type="radio" name="radio" id="rad2" required>
+                    </span>
+                    <span class="radios">
+                        <Label for="rad3">⭐⭐⭐</Label>       <input type="radio" name="radio" id="rad3" required>
+                    </span>
+                    <span class="radios">
+                        <Label for="rad4">⭐⭐⭐⭐</Label>     <input type="radio" name="radio" id="rad4" required>
+                    </span>
+                    <span class="radios">
+                        <Label for="rad5">⭐⭐⭐⭐⭐</Label>  <input type="radio" name="radio" id="rad5" required>
+                    </span>
+                </div>
+            </section>
+
+            <section>
+                <Label for="date">Date of installation</Label>
+                <input type="date" name="date" id="date" required>
+            </section>
+
+            <section>
+                <Label for="useful">Which features did you find useful in the product (select all that apply)</Label>
+                <span>
+                    <input type="checkbox" name="useful" id="useful1"> <Label for="useful1">Durability</Label>     
+                </span> 
+                <span>
+                    <input type="checkbox" name="useful" id="useful2"> <Label for="useful2">Ease of use</Label>    
+                </span>
+                <span>
+                    <input type="checkbox" name="useful" id="useful3"> <Label for="useful3">Performance</Label>    
+                </span>
+                <span>
+                    <input type="checkbox" name="useful" id="useful4"> <Label for="useful4">Design</Label>         
+                </span>
+            </section>
+
+            <section>
+                <Label for="textarea">Written report (Optional)</Label>
+                <textarea name="textarea" id="textarea"></textarea>
+            </section>
+            
+            <section>
+                <Label for="text">Your Name (Optional)</Label>
+                <input type="text" name="text" id="text">
+            </section>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <aside>
+            <div><p id="year"></p>© ⚡Garikai Chatayika⚡Zimbabwe </div>
+        </aside>
+        <aside>
+            <p id="lastModified">Last Modified: </p>
+        </aside>
+    </footer>
+</body>
+</html>

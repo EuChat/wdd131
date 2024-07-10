@@ -1,0 +1,71 @@
+ :root{
+    --primary-color: skyblue;
+    --secondary-color: rgba(245, 222, 179, 0.788);
+    --accent-color1: #a9a9a9 ;
+    --accent-color2: rgb(219, 150, 23);
+    --border1: 1px solid #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px double black;
+    max-width: 900px;
+}
+
+
+
+/* -------------------header--------------- */
+h1{
+    text-align: center;
+    font-size:xx-large;
+    padding: 20px;
+}
+
+
+header{
+    background-color: var(--primary-color);
+}
+
+/* -----------------main----------------- */
+main{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    background-color: var(--accent-color1);
+}
+section{
+    background-color: var(--secondary-color);
+    border: var(--border1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul{
+    margin-left: 1rem;
+    list-style-position: inside;
+}
+
+/* ----------------footer----------------- */
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+@media(min-width: 600px) {
+    body{
+        margin: 0 auto;
+    }
+}
