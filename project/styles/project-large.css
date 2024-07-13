@@ -1,0 +1,28 @@
+
+@media(min-width: 600px) {
+    body{
+        margin: 0 auto;
+    }
+
+    .navigation{
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+    
+    }
+    .navigation.show{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation ul{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    #menu{
+        display: none;
+    }
+    
+}

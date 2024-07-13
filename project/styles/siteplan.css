@@ -1,8 +1,11 @@
  :root{
-    --primary-color: skyblue;
-    --secondary-color: rgba(245, 222, 179, 0.788);
-    --accent-color1: #a9a9a9 ;
-    --accent-color2: rgb(219, 150, 23);
+    --primary-navy-blue: #1D3557;
+    --primary-golden-yellow: #FFD700;
+    --secondary-teal: #008080;
+    --secondary-coral: #FF6F61;
+    --accent-white: #FFFFFF;
+    --accent-light-grey: #D3D3D3;
+    --accent-electric-blue: #7DF9FF;
     --border1: 1px solid #333;
 }
 
@@ -16,22 +19,24 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    border: 2px double black;
-    max-width: 900px;
+    background-color: var(--primary-navy-blue);
+    color: var(--accent-white);
 }
 
 
 
 /* -------------------header--------------- */
-h1{
-    text-align: center;
+header h1{
     font-size:xx-large;
-    padding: 20px;
+    margin: 0;
 }
 
 
 header{
-    background-color: var(--primary-color);
+    background-color: var(--primary-golden-yellow);
+    color: var(--primary-navy-blue);
+    padding: 1em 0 ;
+    text-align: center;
 }
 
 /* -----------------main----------------- */
@@ -42,26 +47,53 @@ main{
     background-color: var(--accent-color1);
 }
 section{
-    background-color: var(--secondary-color);
+    background-color: var(--accent-white);
     border: var(--border1);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 2em;
+    border-radius: 8px;
+    margin: 1em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.418);
+    color: var(--primary-navy-blue);
 }
 
-ul{
-    margin-left: 1rem;
-    list-style-position: inside;
+h2{
+    color: var(--secondary-teal);
 }
+
+button{
+    background-color: var(--secondary-coral);
+    color: var(--accent-white);
+    padding:  0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--primary-golden-yellow);
+}
+
+a{
+    color: var(--accent-electric-blue);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 
 /* ----------------footer----------------- */
 footer{
-    background-color: var(--primary-color);
+    background-color: var(--primary-navy-blue);
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1em 0;
+    color: var(--primary-golden-yellow);
 }
 
 @media(min-width: 600px) {
