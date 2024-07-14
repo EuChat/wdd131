@@ -21,6 +21,7 @@ body{
     font-style: normal;
     color: var(--accent-white);
     border: var(--border1);
+    line-height: 1.6;
 }
 
 
