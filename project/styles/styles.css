@@ -8,26 +8,19 @@
     --accent-electric-blue: #7DF9FF;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--accent-light-gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
 
 .container {
     background-color: var(--accent-white);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    max-width: 600px;
+    min-height: 300px;
+    margin: 0 auto;
     text-align: center;
 }
 
-h1 {
+#greeting{
     margin-bottom: 20px;
     color: var(--primary-navy-blue);
 }
@@ -74,13 +67,10 @@ textarea {
     resize: vertical;
 }
 
-a {
-    color: var(--accent-electric-blue);
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
+input[required], select[required]{
+    border-right: 10px solid red ;
 }
 
-a:hover {
-    text-decoration: underline;
+input:required:valid, select:required:valid{
+    border-right: 10px solid green;
 }

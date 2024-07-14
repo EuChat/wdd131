@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket Booking System</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/project.css">
+    <link rel="stylesheet" href="./styles/project-large.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/project.js" defer></script>
 </head>
 <body>
+    <header id="grid">
+        <img src="/project/images/logo.jpg" alt="logo" id="icon">
+        <h1>Music Festival Extravaganza</h1>
+        <div id="menuContainer">
+            <button id="menu" aria-label="Menu">≡</button>
+        </div>
+        <nav class="navigation show">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./lineup.html">Lineup</a></li>
+                <li><a href="./ticket.html">Tickets</a></li>
+                <li><a href="./ContactUs.html">Contact us</a></li>
+                <li><a href="#">DONATIONS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="Wideness">
     <div class="container">
-        <h1>Ticket Booking System</h1>
-        <form id="bookingForm">
+        <h1 id="greeting">Ticket Booking System</h1>
+        <form id="bookingForm contactForm container">
             <label for="name">Name:</label>
             <input type="text" id="name" required>
 
@@ -39,8 +59,18 @@
             <button type="submit">Book Tickets</button>
         </form>
         <div id="confirmationMessage"></div>
-        <a href="contact.html">Contact Us</a>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+</main>
+<footer>
+    <aside class="gridspan">
+        ©<p id="year"></p> ⚡Garikai Chatayika⚡Zimbabwe     
+    </aside>
+    <aside  class="gridspan">
+        <p>Last Modified:</p>
+        <p id="lastModified"></p>
+    </aside>
+    <a href="#">Attributions</a>
+</footer>
 </body>
 </html>

@@ -21,6 +21,7 @@ body{
     font-style: normal;
     background-color: var(--primary-navy-blue);
     color: var(--accent-white);
+    line-height: 1.6;
 }
 
 

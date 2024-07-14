@@ -24,5 +24,26 @@
     #menu{
         display: none;
     }
+    #ContexualContext{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        justify-content: center;
+    }
+
+        
+    .Context{
+        max-height: 300px;
+        min-height: 200px ;
+        width: auto;
+        justify-self: center;
+        border: var(--border1);
+    }
+
+    .Wideness{
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(80deg, rgba(255, 192, 203, 0.5), rgba(255, 230, 0, 0.5) ), url("../images/soundtrap-d0sXdsCnhF8-unsplash.WebP");
+    }
     
 }

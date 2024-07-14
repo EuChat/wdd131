@@ -18,13 +18,13 @@
     </header>
     <main>
         <form action="review.html" method="get" id="hero">
-            <section>
+            <section class="commons">
                 <Label for="ProductName">Product name</Label>
                 <select name="ProductName" id="ProductName" required>
                     <option value="None" disabled selected>Select a product...</option>
                 </select>
-            </section>
-            <section>
+            </section class="commons">
+            <section class="commons">
                 <Label for="radio">Overall rating</Label>
                 <div id="rads">
                     <span class="radios">
@@ -43,14 +43,14 @@
                         <Label for="rad5">⭐⭐⭐⭐⭐</Label>  <input type="radio" name="radio" id="rad5" required>
                     </span>
                 </div>
-            </section>
+            </section class="commons">
 
-            <section>
+            <section class="commons">
                 <Label for="date">Date of installation</Label>
                 <input type="date" name="date" id="date" required>
-            </section>
+            </section class="commons">
 
-            <section>
+            <section class="commons">
                 <Label for="useful">Which features did you find useful in the product (select all that apply)</Label>
                 <span>
                     <input type="checkbox" name="useful" id="useful1"> <Label for="useful1">Durability</Label>     
@@ -64,17 +64,17 @@
                 <span>
                     <input type="checkbox" name="useful" id="useful4"> <Label for="useful4">Design</Label>         
                 </span>
-            </section>
+            </section class="commons">
 
-            <section>
+            <section class="commons">
                 <Label for="textarea">Written report (Optional)</Label>
                 <textarea name="textarea" id="textarea"></textarea>
-            </section>
+            </section class="commons">
             
-            <section>
+            <section class="commons">
                 <Label for="text">Your Name (Optional)</Label>
                 <input type="text" name="text" id="text">
-            </section>
+            </section class="commons">
 
             <button type="submit">Submit</button>
         </form>
