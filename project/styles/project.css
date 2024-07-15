@@ -105,6 +105,7 @@ a:hover{
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(60deg, rgba(59, 55, 0, 0.432),  rgba(197, 149, 90, 0.541)), url('../images/perry-avgerinos-R2dlVo7WQVs-unsplash.WebP');
+    justify-items: center;
 }
 .commons{
     background-color: var(--accent-white);
@@ -147,11 +148,7 @@ button:hover{
     border: var(--border1);
 }
 
-#ContexualContext{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-}
+
 .listings{
     font-family: "Carter One", system-ui;
     font-weight: 400;
@@ -160,14 +157,15 @@ button:hover{
     font-size: x-large;
     
 }
+
+#ContexualContext figcaption {
+    max-width: 200px;
+}
+
+
 #schedule{
-    grid-column: 2/3;
-    grid-row: 1 / 3;
     border-spacing: 0px;
     font-weight: 600;
-}
-.table-responsive{
-
 h1{
     font-family: Georgia, serif;
     margin: 0;
@@ -178,7 +176,7 @@ main {
 }
 
 section {
-    background-color: var(--accent-white);
+
     color: var(--primary-navy-blue);
     margin-bottom: 2em;
     padding: 1em;
@@ -224,36 +222,20 @@ tr:nth-child(even) td {
     background-color: rgba(255, 255, 255, 0.527);
 }
 
-@media (max-width: 768px) {
-    body {
-        padding: 0 1em;
-    }
-
-    section {
-        padding: 0.5em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    th, td {
-        padding: 0.5em;
-    }
 }
-}
-/* ----------------footer----------------- */
 
-.gridspan{
-    display: flex;
-}
 
 footer{
     background-color: var(--primary-navy-blue);
+    color: var(--primary-golden-yellow);
     text-align: center;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 1em 0;
+    padding: 0.5rem;
+}
+
+.gridspan{
+    display: flex;
 }
