@@ -55,10 +55,20 @@
     .Wideness{
         background-position: center;
         background-size: cover;
-        background-image: linear-gradient(80deg, rgba(231, 228, 24, 0.836), rgba(255, 230, 0, 0.5) ), url("../images/soundtrap-d0sXdsCnhF8-unsplash.WebP");
+        background-image: linear-gradient(80deg, rgba(136, 134, 20, 0.836), rgba(13, 88, 138, 0.5) ), url("../images/soundtrap-d0sXdsCnhF8-unsplash.WebP");
     }
     #schedule{
         grid-row: 1 / 6;
         grid-column: 2 / 3;
     }
+
+    
+.p1, .p2 , .p3, .p4{
+    color: #1d3557;;
+    text-align:center;
+    font-size: 1 em;
+}
+
+
+
 }

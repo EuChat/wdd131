@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,48 +12,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/project.css">
     <link rel="stylesheet" href="./styles/project-large.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <script src="./scripts/project.js" defer></script>
+    <script src="./scripts/donations.js" defer></script>
+
 </head>
 <body>
     <header id="grid">
         <img src="./images/logo.jpg" alt="logo" id="icon" loading="lazy">
-        <h1>Music Festival Extravaganza</h1>
+        <h1>Donations- The Hearing Center</h1>
         <div id="menuContainer">
             <button id="menu" aria-label="Menu">≡</button>
         </div>
         <nav class="navigation show">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="./lineup.html">Line up</a></li>
+                <li><a href="/project/lineup.html">Line up</a></li>
                 <li><a href="./ticket.html">Buy tickets now</a></li>
                 <li><a href="./ContactUs.html">Contact us</a></li>
-                <li><a href="./donations.html">DONATIONS</a></li>
+                <li><a href="#">DONATIONS</a></li>
                 
             </ul>
         </nav>
     </header>
-    <main class="theMain">
-        <section class="heroText">
-            <ul class="listings">
-                <li class="p1"> Promoting economic empowerment and societal inclusivity of the deaf community! </li>
-                <li class="p3">WINTER WARMER  EXTRAVAGANZA</li>
-                <li class="p3">Embracing the Art of Musical Brilliance</li>
-                <li class="p2">Venue : Victoria Falls Arena</li>
-                <li class="p4">Contemporary, Rock and Roll ,Classical,Local Music</li>
-                <div class="image-container">
-                    <img src="./images/bailey-torres-9-Mt_kNlj9Y-unsplash.WebP" alt="Picture1" class="Context" loading="lazy">
-                    <img src="./images/filip-mishevski-unsplash.WebP" alt="Picture2" class="Context" loading="lazy">
-                    
-                    <img src="./images/soundtrap-d0sXdsCnhF8-unsplash.WebP" alt="Picture3" class="Context" loading="lazy">
-                </div>
-                <li class="p1">Bands includes: Aurora Nights,Sonic Fux,Crimson Tide,Ironclad Dreams,Elysian Ensemble,Utakataka Express, Ochestra Mberikwazvo,Kanido Fabion,The Black Spirits, inter alia</Li>
-                <li class="p4">DATES:AUGUST 14- 16, 2025</li>
-                <li class="p3">Tickets Available Online</li>
-                <li class="p2">FULL SECURITY,FOOD and REFRESHMENTS AVAILABLE</li>
-            </ul>
+
+
+    <main class="Wideness">
+        <section id="donations" class="section">
+            <h2 class="p1">Support the hearing center which are </h2>
+            <p class="p1">Your donations help us to empower the deaf community. Any amount is appreciated!</p>
+            <div class="container">
+            <form id="donationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" min="1" required>
+
+                <button type="submit">Donate Now</button>
+            </form>
+            <div id="confirmationMessage"></div>
+        </div>
         </section>
-        
     </main>
+
     <footer>
         <aside class="gridspan">
             ©<p id="year"></p> ⚡Garikai Chatayika⚡Zimbabwe     
@@ -64,5 +69,6 @@
         </aside>
         <a href="./attributions.html">Attributions</a>
     </footer>
+
 </body>
 </html>

@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./styles/project-large.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="./scripts/project.js" defer></script>
+    <script src="./scripts/ticket.js" defer></script>
 </head>
 <body>
     <header id="grid">
-        <img src="./project/images/logo.jpg" alt="logo" id="icon">
+        <img src="./images/logo.jpg" alt="logo" id="icon">
         <h1>Music Festival Extravaganza</h1>
         <div id="menuContainer">
             <button id="menu" aria-label="Menu">≡</button>
@@ -22,14 +23,14 @@
                 <li><a href="./lineup.html">Lineup</a></li>
                 <li><a href="#">Tickets</a></li>
                 <li><a href="./ContactUs.html">Contact us</a></li>
-                <li><a href="#">DONATIONS</a></li>
+                <li><a href="./donations.html">DONATIONS</a></li>
             </ul>
         </nav>
     </header>
     <main class="Wideness">
     <div class="container">
         <h1 id="greeting">Ticket Booking System</h1>
-        <form id="bookingForm contactForm container" method="get" action="ticket-result.html">
+        <form id="bookingForm" class=" contactForm container" method="get" >
             <label for="name">Name:</label>
             <input type="text" id="name" required>
 
@@ -48,19 +49,19 @@
             <label for="ticketDay">Ticket Day:</label>
             <select id="ticketDay" required>
                 <option value="" disabled selected>Select a day</option>
-                <option value="Day One">Day One</option>
-                <option value="Day Two">Day Two</option>
-                <option value="Day Three">Day Three</option>
+                <option value="Day 1">Day 1</option>
+                <option value="Day 2">Day 2</option>
+                <option value="Day 3">Day 3</option>
+                <option value="Day 4">Day 4</option>
             </select>
 
             <label for="ticketQuantity">Number of Tickets:</label>
             <input type="number" id="ticketQuantity" min="1" required>
 
-            <button type="submit">Book Tickets</button>
+            <button type="submit" id="submition">Book Tickets</button>
         </form>
-        <div id="confirmationMessage"></div>
+        <div><p id="confirmationMessage"></p></div>
     </div>
-    <script src="./scripts/ticket.js" defer></script>
 </main>
 <footer>
     <aside class="gridspan">
