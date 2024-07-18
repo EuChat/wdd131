@@ -13,6 +13,8 @@
     #pic3{
         grid-column: 1 / 3;
     }
+
+    
 }
 
 @media(min-width: 900px) {
@@ -56,6 +58,7 @@
         border: var(--border1);
     }
 
+
     .Wideness{
         background-position: center;
         background-size: cover;
@@ -79,5 +82,8 @@
         bottom:150px;
         height: 0px;
     }
-        
+            
+    .extra{
+        color: #000;
+    }
 }
