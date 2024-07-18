@@ -122,7 +122,7 @@ a:hover{
     color: var(--primary-golden-yellow);
 }
 
-h2{color: var(--secondary-teal);}
+h2, h1{color: var(--secondary-teal);}
 
 button{
     background-color: var(--secondary-coral);
