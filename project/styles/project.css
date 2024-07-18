@@ -24,6 +24,9 @@ body{
     line-height: 1.6;
 }
 
+body ul{
+    list-style: none;
+}
 
 
 /* -------------------header--------------- */
@@ -106,6 +109,7 @@ a:hover{
     background-size: cover;
     background-image: linear-gradient(800deg, rgba(148, 139, 15, 0.678),  rgba(182, 115, 34, 0.568)), url('../images/perry-avgerinos-R2dlVo7WQVs-unsplash.WebP');
     justify-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .commons{
     background-color: var(--accent-white);
@@ -118,9 +122,7 @@ a:hover{
     color: var(--primary-golden-yellow);
 }
 
-h2{
-    color: var(--secondary-teal);
-}
+h2{color: var(--secondary-teal);}
 
 button{
     background-color: var(--secondary-coral);
@@ -137,13 +139,14 @@ button:hover{
     background-color: var(--primary-navy-blue);
     transition: 6s;
 }
-.Context:hover{
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.664);
+img.Context:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .Context{
     height: auto;
-    width: 200px;
+    width: 100%;
     justify-self: center;
     border: var(--border1);
 }
@@ -155,11 +158,11 @@ button:hover{
     font-style: normal;
     color: var(--accent-light-grey);
     font-size: x-large;
-    
 }
 
 #ContexualContext figcaption {
     max-width: 200px;
+    font: var(--primary-navy-blue);
 }
 
 
@@ -171,9 +174,7 @@ h1{
     margin: 0;
 }
 
-main {
-    padding: 2em;
-}
+main {padding: 2em;}
 
 section {
 
@@ -189,11 +190,10 @@ h2 {
     color: var(--secondary-teal);
     text-align: center;
     margin-bottom: 1em;
+    font-size: large;
 }
 
-.table-responsive {
-    overflow-x: auto;
-}
+.table-responsive {overflow-x: auto;}
 
 table {
     max-width: 100%;
@@ -236,6 +236,13 @@ footer{
     padding: 0.5rem;
 }
 
-.gridspan{
+.gridspan{display: flex;}
+
+.image-container{
     display: flex;
+    flex-direction: column;
+}
+
+.heroText2{
+    color: var(--primary-navy-blue);
 }
